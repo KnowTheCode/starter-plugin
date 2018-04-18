@@ -1,0 +1,7 @@
+*.DS_Store
+composer.lock
+/node_modules/
+/vendor/
+/logs/
+/reports/
+.idea/

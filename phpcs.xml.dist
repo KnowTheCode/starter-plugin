@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<ruleset name="PluginStarter">
+    <description>The code standard for your plugin.</description>
+
+    <file>.</file>
+
+    <!-- Ignore these directories -->
+    <exclude-pattern>*/dist/*</exclude-pattern>
+    <exclude-pattern>node_modules/*</exclude-pattern>
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/vendors/*</exclude-pattern>
+    <exclude-pattern>*/index.php</exclude-pattern>
+
+    <!-- PHP only. We'll use other validators for JS, CSS, etc. -->
+    <arg name="extensions" value="php"/>
+
+    <!-- Reporting Configuration -->
+    <arg name="colors" />
+    <arg value="sp"/>
+    <arg name="report" value="full"/>
+    <arg name="report" value="summary"/>
+    <arg name="report" value="source"/>
+
+    <!-- PHP Rules -->
+    <config name="testVersion" value="5.6-"/>
+
+    <!-- WordPress Rules -->
+    <rule ref="WordPress">
+        <exclude name="WordPress.VIP"/>
+    </rule>
+
+    <rule ref="WordPress.Files.FileName">
+        <properties>
+            <property name="strict_class_file_names" value="false"/>
+        </properties>
+        <exclude name="WordPress.Files.FileName.NotHyphenatedLowercase"/>
+    </rule>
+
+    <rule ref="WordPress.WhiteSpace.ControlStructureSpacing">
+        <properties>
+            <property name="blank_line_check" value="true" />
+        </properties>
+    </rule>
+
+    <rule ref="WordPress.WP.DeprecatedFunctions">
+        <properties>
+            <property name="minimum_supported_version" value="4.8" />
+        </properties>
+    </rule>
+
+    <rule ref="WordPress.WP.I18n">
+        <properties>
+            <property name="text_domain" type="array" value="git-contributing" />
+        </properties>
+    </rule>
+</ruleset>
