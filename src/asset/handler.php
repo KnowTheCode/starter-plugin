@@ -11,6 +11,10 @@
 
 namespace KnowTheCode\StarterPlugin\Asset;
 
+use function KnowTheCode\StarterPlugin\_get_plugin_directory;
+use function KnowTheCode\StarterPlugin\_get_plugin_url;
+use function KnowTheCode\StarterPlugin\_is_in_development_mode;
+
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_plugin_script' );
 /**
  * Enqueues the plugin's script(s).
@@ -21,13 +25,13 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_plugin_script' );
  */
 function enqueue_plugin_script() {
 	$file = _is_in_development_mode()
-		? '/assets/dist/plugin-starter.min.js'
-		: '/assets/scripts/plugin-starter.js';
+		? '/assets/dist/starter-plugin.min.js'
+		: '/assets/scripts/starter-plugin.js';
 
 	wp_enqueue_script(
-		'markup_id_scraper_script',
+		'starter_plugin_script',
 		_get_plugin_url() . $file,
-		array( 'jquery' ),
+		[ 'jquery' ],
 		_get_asset_version( $file ),
 		true
 	);
@@ -43,13 +47,13 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_plugin_css' );
  */
 function enqueue_plugin_css() {
 	$file = _is_in_development_mode()
-		? '/assets/dist/plugin-starter.min.css'
-		: '/assets/css/plugin-starter.css';
+		? '/assets/dist/starter-plugin.min.css'
+		: '/assets/css/starter-plugin.css';
 
 	wp_enqueue_style(
 		'plugin_starter_styles',
 		_get_plugin_url() . $file,
-		array(),
+		[],
 		_get_asset_version( $file )
 	);
 }
