@@ -25,7 +25,7 @@ namespace KnowTheCode\StarterPlugin;
  *
  * @since  1.0.0
  * @ignore
- * @internal
+ * @access private
  *
  * @return string
  */
@@ -38,7 +38,7 @@ function _get_plugin_directory() {
  *
  * @since  1.0.0
  * @ignore
- * @internal
+ * @access private
  *
  * @return string
  */
@@ -57,7 +57,7 @@ function _get_plugin_url() {
  *
  * @since 1.0.0
  * @ignore
- * @internal
+ * @access private
  *
  * @return bool
  */
