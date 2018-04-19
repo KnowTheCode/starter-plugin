@@ -48,7 +48,7 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_plugin_css' );
 function enqueue_plugin_css() {
 	$file = _is_in_development_mode()
 		? '/assets/dist/starter-plugin.min.css'
-		: '/assets/css/starter-plugin.css';
+		: '/assets/styles/starter-plugin.css';
 
 	wp_enqueue_style(
 		'plugin_starter_styles',
