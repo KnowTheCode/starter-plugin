@@ -9,11 +9,11 @@
  * @wordpress-plugin
  * Plugin Name: Starter Plugin
  * Plugin URI:  https://github.com/KnowTheCode/starter-plugin
- * Description: Starter Plugin - Quickly start your custom WordPress plugin.
+ * Description: A WordPress plugin boilerplate that emphasizes code quality and provides you a quick start to your custom plugin development project.
  * Version:     1.0.0
  * Author:      hellofromTonya
  * Author URI:  https://KnowTheCode.io
- * Text Domain: starter
+ * Text Domain: starter-plugin
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */

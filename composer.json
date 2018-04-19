@@ -1,6 +1,6 @@
 {
 	"name": "knowthecode/starter-plugin",
-	"description": "Starter Plugin - Quickly start your custom WordPress plugin.",
+	"description": "A WordPress plugin boilerplate that emphasizes code quality.",
 	"type": "wordpress-plugin",
 	"license": "GPL-2.0-or-later",
 	"homepage": "https://knowthecode.io/",
