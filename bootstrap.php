@@ -25,7 +25,7 @@ namespace KnowTheCode\StarterPlugin;
  *
  * @since  1.0.0
  * @ignore
- * @access private
+ * @internal
  *
  * @return string
  */
@@ -38,7 +38,7 @@ function _get_plugin_directory() {
  *
  * @since  1.0.0
  * @ignore
- * @access private
+ * @internal
  *
  * @return string
  */
@@ -56,6 +56,8 @@ function _get_plugin_url() {
  * Checks if this plugin is in development mode.
  *
  * @since 1.0.0
+ * @ignore
+ * @internal
  *
  * @return bool
  */
