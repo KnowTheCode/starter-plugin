@@ -15,7 +15,7 @@
     <arg name="extensions" value="php"/>
 
     <!-- Reporting Configuration -->
-    <arg name="colors" />
+    <arg name="colors"/>
     <arg value="sp"/>
     <arg name="report" value="full"/>
     <arg name="report" value="summary"/>
@@ -23,6 +23,7 @@
 
     <!-- PHP Rules -->
     <config name="testVersion" value="5.6-"/>
+    <rule ref="VariableAnalysis"/>
 
     <!-- WordPress Rules -->
     <rule ref="WordPress">
@@ -38,19 +39,19 @@
 
     <rule ref="WordPress.WhiteSpace.ControlStructureSpacing">
         <properties>
-            <property name="blank_line_check" value="true" />
+            <property name="blank_line_check" value="true"/>
         </properties>
     </rule>
 
     <rule ref="WordPress.WP.DeprecatedFunctions">
         <properties>
-            <property name="minimum_supported_version" value="4.8" />
+            <property name="minimum_supported_version" value="4.8"/>
         </properties>
     </rule>
 
     <rule ref="WordPress.WP.I18n">
         <properties>
-            <property name="text_domain" type="array" value="git-contributing" />
+            <property name="text_domain" type="array" value="git-contributing"/>
         </properties>
     </rule>
 </ruleset>

@@ -22,7 +22,7 @@ trait Test_Case_Trait {
 	 *
 	 * @var string
 	 */
-	protected $test_root_dir;
+	protected $test_root_dir = '';
 
 	/**
 	 * Load the original functions into memory before we start.

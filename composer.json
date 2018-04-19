@@ -1,59 +1,59 @@
 {
-    "name": "knowthecode/starter-plugin",
-    "description": "Starter Plugin - Quickly start your custom WordPress plugin.",
-    "type": "wordpress-plugin",
-    "license": "GPL-2.0+",
-    "homepage": "https://knowthecode.io/",
-    "support": {
-        "issues": "https://github.com/KnowTheCode/starter-plugin/issues",
-        "source": "https://github.com/KnowTheCode/starter-plugin"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "autoload": {
-        "exclude-from-classmap": [
-            "/tests/"
-        ]
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "KnowTheCode\\StarterPlugin\\Tests\\PHP\\": "tests/php/",
-            "KnowTheCode\\StarterPlugin\\Tests\\PHP\\Unit\\": "tests/php/unit/",
-            "KnowTheCode\\StarterPlugin\\Tests\\PHP\\Integration\\": "tests/php/integration/"
-        }
-    },
-    "require": {
-        "php": "^5.6|^7",
-        "composer/installers": "^1.4",
-        "roave/security-advisories": "dev-master"
-    },
-    "require-dev": {
-        "brain/monkey": "^2.2",
-        "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
-        "phpunit/phpunit": "~5.7.9",
-        "sirbrillig/phpcs-variable-analysis": "^2.0",
-        "squizlabs/php_codesniffer": "^3.2",
-        "wimg/php-compatibility": "^8.0",
-        "wp-coding-standards/wpcs": "^0.14.1"
-    },
-    "config": {
-        "sort-order": true
-    },
-    "scripts": {
-        "install-codestandards": [
-            "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
-        ],
-        "phpcs-src": "\"vendor/bin/phpcs\"",
-        "phpcs-tests": "\"vendor/bin/phpcs\" --runtime-set testVersion 5.6 tests/php/",
-        "run-phpcs": [
-            "@phpcs-src",
-            "@phpcs-tests"
-        ],
-        "test-unit": "\"vendor/bin/phpunit\" --testsuite unit --color=always",
-        "test-integration": "\"vendor/bin/phpunit\" --testsuite integration --configuration tests/php/integration/phpunit.xml.dist --color=always",
-        "run-tests": [
-            "@test-unit",
-            "@test-integration"
-        ]
-    }
+	"name": "knowthecode/starter-plugin",
+	"description": "Starter Plugin - Quickly start your custom WordPress plugin.",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"homepage": "https://knowthecode.io/",
+	"support": {
+		"issues": "https://github.com/KnowTheCode/starter-plugin/issues",
+		"source": "https://github.com/KnowTheCode/starter-plugin"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"autoload": {
+		"exclude-from-classmap": [
+			"/tests/"
+		]
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"KnowTheCode\\StarterPlugin\\Tests\\PHP\\": "tests/php/",
+			"KnowTheCode\\StarterPlugin\\Tests\\PHP\\Unit\\": "tests/php/unit/",
+			"KnowTheCode\\StarterPlugin\\Tests\\PHP\\Integration\\": "tests/php/integration/"
+		}
+	},
+	"require": {
+		"php": "^5.6|^7",
+		"composer/installers": "^1.0"
+	},
+	"require-dev": {
+		"brain/monkey": "^2.2",
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+		"phpunit/phpunit": "~5.7.9",
+		"roave/security-advisories": "dev-master",
+		"sirbrillig/phpcs-variable-analysis": "^2.0",
+		"squizlabs/php_codesniffer": "^3.2",
+		"wimg/php-compatibility": "^8.0",
+		"wp-coding-standards/wpcs": "^0.14.1"
+	},
+	"config": {
+		"sort-order": true
+	},
+	"scripts": {
+		"install-codestandards": [
+			"Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin::run"
+		],
+		"phpcs-src": "\"vendor/bin/phpcs\" src/",
+		"phpcs-tests": "\"vendor/bin/phpcs\" tests/php/",
+		"run-phpcs": [
+			"@phpcs-src",
+			"@phpcs-tests"
+		],
+		"test-unit": "\"vendor/bin/phpunit\" --testsuite unit --color=always",
+		"test-integration": "\"vendor/bin/phpunit\" --testsuite integration --configuration tests/php/integration/phpunit.xml.dist --color=always",
+		"run-tests": [
+			"@test-unit",
+			"@test-integration"
+		]
+	}
 }
