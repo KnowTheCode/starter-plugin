@@ -55,7 +55,7 @@ function _get_plugin_url() {
 /**
  * Checks if this plugin is in development mode.
  *
- * @since 1.0.0
+ * @since  1.0.0
  * @ignore
  * @access private
  *
@@ -73,8 +73,7 @@ function _is_in_development_mode() {
  * @return void
  */
 function autoload_files() {
-	$files = array(
-		// add the list of files to load here.
+	$files = array(// add the list of files to load here.
 	);
 
 	foreach ( $files as $file ) {
