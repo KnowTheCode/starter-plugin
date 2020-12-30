@@ -3,7 +3,7 @@
 	"description": "A WordPress plugin boilerplate that emphasizes code quality.",
 	"type": "wordpress-plugin",
 	"license": "GPL-2.0-or-later",
-	"homepage": "https://knowthecode.io/",
+	"homepage": "https://ber.codes/",
 	"support": {
 		"issues": "https://github.com/KnowTheCode/starter-plugin/issues",
 		"source": "https://github.com/KnowTheCode/starter-plugin"

@@ -20,7 +20,7 @@ You are free to use this plugin.  Rename it.  Change the namespace and author in
  
  Wiring up test suites can be challenging.  This plugin handles it for you.
  
- - Separation of [Unit and Integration](https://knowthecode.io/labs/unit-integration-testing-basics/episode-4) testing suites.
+ - Separation of [Unit and Integration](https://ber.codes/labs/unit-integration-testing-basics/episode-4) testing suites.
  - Bootstrapping for each suite is all done for you.
  - Test cases are built in for you.
  - [Brain Monkey](https://brain-wp.github.io/BrainMonkey/) is built in and ready for you to use.
@@ -33,9 +33,9 @@ You are free to use this plugin.  Rename it.  Change the namespace and author in
  
  Psst, need help getting rolling? Check out this hands-on coding labs:
   
- - [Unit & Integration Testing Basics](https://knowthecode.io/labs/unit-integration-testing-basics)
- - [Unit Testing with Brain Monkey](https://knowthecode.io/labs/unit-testing-brain-monkey)
- - [Testing Hooks with Brain Monkey](https://knowthecode.io/labs/testing-hooks-brain-monkey)
+ - [Unit & Integration Testing Basics](https://ber.codes/labs/unit-integration-testing-basics)
+ - [Unit Testing with Brain Monkey](https://ber.codes/labs/unit-testing-brain-monkey)
+ - [Testing Hooks with Brain Monkey](https://ber.codes/labs/testing-hooks-brain-monkey)
  
  ### Code Validation
  
@@ -65,7 +65,7 @@ Bam, you are ready to customize it for your project's needs.
 
 The next step is to rename the namespace, plugin's file header, and the author information.
 
-1. Do a global search and replace in your favorite editor to replace `KnowTheCode\StarterPlugin` with your namespace.  Remember, the standard is `YourNameOrCompanyName\PluginName`.
+1. Do a global search and replace in your favorite editor to replace `AmberChunn\GoGoGadget` with your namespace.  Remember, the standard is `YourNameOrCompanyName\PluginName`.
 2. Open up the `boostrap.php` file.
 3. Change the plugin's file header information for your needs:
     - Change the opening short description.
@@ -73,8 +73,8 @@ The next step is to rename the namespace, plugin's file header, and the author i
     - Change the `Plugin's Name` and `Plugin URI`.
     - Change the `Description`.
     - Change the `Text Domain`.
-4. Do a global search and replace to change the `@author` from `hellofromTonya` to your name.
-5. Do a global search and replace to change the `@link` from `https://knowthecode.io` to your URI.
+4. Do a global search and replace to change the `@author` from `amberchunn` to your name.
+5. Do a global search and replace to change the `@link` from `https://ber.codes` to your URI.
 
 Bam, you are ready to start building your plugin.
     

@@ -2,16 +2,16 @@
 /**
  * Bootstraps the Plugin's Integration Tests.
  *
- * @package     KnowTheCode\StarterPlugin\Tests\PHP\Integration
+ * @package     AmberChunn\GoGoGadget\Tests\PHP\Integration
  * @since       1.0.0
  * @link        https://github.com/KnowTheCode/starter-plugin
  * @license     GNU-2.0+
  */
 
-namespace KnowTheCode\StarterPlugin\Tests\PHP\Integration;
+namespace AmberChunn\GoGoGadget\Tests\PHP\Integration;
 
-use function KnowTheCode\StarterPlugin\Tests\PHP\get_plugin_root_dir;
-use function KnowTheCode\StarterPlugin\Tests\PHP\load_composer_autoloader;
+use function AmberChunn\GoGoGadget\Tests\PHP\get_plugin_root_dir;
+use function AmberChunn\GoGoGadget\Tests\PHP\load_composer_autoloader;
 
 /**
  * Gets the integration test's root directory.

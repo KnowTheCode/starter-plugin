@@ -2,23 +2,23 @@
 /**
  * Starter Plugin
  *
- * @package     KnowTheCode\StarterPlugin
- * @author      hellofromTonya
+ * @package     AmberChunn\GoGoGadget
+ * @author      amberchunn
  * @license     GPL-2.0+
  *
  * @wordpress-plugin
- * Plugin Name: Starter Plugin
- * Plugin URI:  https://github.com/KnowTheCode/starter-plugin
- * Description: A WordPress plugin boilerplate that emphasizes code quality and provides you a quick start to your custom plugin development project.
+ * Plugin Name: Go Go Gadget Plugin
+ * Plugin URI:  https://github.com/AmberChunn/go-go-gadget
+ * Description: Another WordPress boilerplate.
  * Version:     1.0.0
- * Author:      hellofromTonya
- * Author URI:  https://KnowTheCode.io
- * Text Domain: starter-plugin
+ * Author:      amberchunn
+ * Author URI:  https://ber.codes
+ * Text Domain: go-go-gadget
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-namespace KnowTheCode\StarterPlugin;
+namespace AmberChunn\GoGoGadget;
 
 /**
  * Gets this plugin's absolute directory path.

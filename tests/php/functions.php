@@ -2,13 +2,13 @@
 /**
  * Shared functionality for all test suites.
  *
- * @package     KnowTheCode\StarterPlugin\Tests\PHP
+ * @package     AmberChunn\GoGoGadget\Tests\PHP
  * @since       1.0.0
  * @link        https://github.com/KnowTheCode/starter-plugin
  * @license     GNU-2.0+
  */
 
-namespace KnowTheCode\StarterPlugin\Tests\PHP;
+namespace AmberChunn\GoGoGadget\Tests\PHP;
 
 if ( version_compare( phpversion(), '5.6.0', '<' ) ) {
 	die( 'Whoops, PHP 5.6 or higher is required.' );

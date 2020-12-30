@@ -2,22 +2,22 @@
 /**
  * Test Case for the Plugin's Unit Tests.
  *
- * @package     KnowTheCode\StarterPlugin\Tests\PHP\Unit
+ * @package     AmberChunn\GoGoGadget\Tests\PHP\Unit
  * @since       1.0.0
  * @link        https://github.com/KnowTheCode/starter-plugin
  * @license     GNU-2.0+
  */
 
-namespace KnowTheCode\StarterPlugin\Tests\PHP\Unit;
+namespace AmberChunn\GoGoGadget\Tests\PHP\Unit;
 
 use Brain\Monkey;
-use KnowTheCode\StarterPlugin\Tests\PHP\Test_Case_Trait;
+use AmberChunn\GoGoGadget\Tests\PHP\Test_Case_Trait;
 use PHPUnit\Framework\TestCase;
 
 /**
  * Abstract Class Test_Case
  *
- * @package KnowTheCode\StarterPlugin\Tests\PHP\Unit
+ * @package AmberChunn\GoGoGadget\Tests\PHP\Unit
  */
 abstract class Test_Case extends TestCase {
 

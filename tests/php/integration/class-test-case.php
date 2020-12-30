@@ -2,22 +2,22 @@
 /**
  * Test Case for the Plugin's PHP\Integration Tests.
  *
- * @package     KnowTheCode\StarterPlugin\Tests\PHP\Integration
+ * @package     AmberChunn\GoGoGadget\Tests\PHP\Integration
  * @since       1.0.0
  * @link        https://github.com/KnowTheCode/starter-plugin
  * @license     GNU-2.0+
  */
 
-namespace KnowTheCode\StarterPlugin\Tests\PHP\Integration;
+namespace AmberChunn\GoGoGadget\Tests\PHP\Integration;
 
 use Brain\Monkey;
-use KnowTheCode\StarterPlugin\Tests\PHP\Test_Case_Trait;
+use AmberChunn\GoGoGadget\Tests\PHP\Test_Case_Trait;
 use WP_UnitTestCase;
 
 /**
  * Abstract Class Test_Case
  *
- * @package KnowTheCode\StarterPlugin\Tests\PHP\Integration
+ * @package AmberChunn\GoGoGadget\Tests\PHP\Integration
  */
 abstract class Test_Case extends WP_UnitTestCase {
 

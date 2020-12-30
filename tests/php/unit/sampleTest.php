@@ -4,18 +4,18 @@
  *
  * NOTE: Delete this file once there is at least one integration test.
  *
- * @package     KnowTheCode\StarterPlugin\Tests\PHP\Unit
+ * @package     AmberChunn\GoGoGadget\Tests\PHP\Unit
  * @since       1.0.0
  * @link        https://github.com/KnowTheCode/starter-plugin
  * @license     GNU-2.0+
  */
 
-namespace KnowTheCode\StarterPlugin\Tests\PHP\Unit;
+namespace AmberChunn\GoGoGadget\Tests\PHP\Unit;
 
 /**
  * Class Tests_SampleTest
  *
- * @package KnowTheCode\StarterPlugin\Tests\PHP\Unit
+ * @package AmberChunn\GoGoGadget\Tests\PHP\Unit
  */
 class Tests_SampleTest extends Test_Case {
 

@@ -2,20 +2,20 @@
 /**
  * Tests _get_plugin_url().
  *
- * @package     KnowTheCode\StarterPlugin\Tests\PHP\Integration
+ * @package     AmberChunn\GoGoGadget\Tests\PHP\Integration
  * @since       1.0.0
  * @link        https://github.com/KnowTheCode/starter-plugin
  * @license     GNU-2.0+
  */
 
-namespace KnowTheCode\StarterPlugin\Tests\PHP\Integration;
+namespace AmberChunn\GoGoGadget\Tests\PHP\Integration;
 
-use function KnowTheCode\StarterPlugin\_get_plugin_url;
+use function AmberChunn\GoGoGadget\_get_plugin_url;
 
 /**
  * Class Tests_GetPluginUrl
  *
- * @package KnowTheCode\StarterPlugin\Tests\PHP\Integration
+ * @package AmberChunn\GoGoGadget\Tests\PHP\Integration
  */
 class Tests_GetPluginUrl extends Test_Case {
 

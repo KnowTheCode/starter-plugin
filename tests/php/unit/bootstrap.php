@@ -2,15 +2,15 @@
 /**
  * Bootstraps the Plugin's Unit Tests.
  *
- * @package     KnowTheCode\StarterPlugin\Tests\PHP\Unit
+ * @package     AmberChunn\GoGoGadget\Tests\PHP\Unit
  * @since       1.0.0
  * @link        https://github.com/KnowTheCode/starter-plugin
  * @license     GNU-2.0+
  */
 
-namespace KnowTheCode\StarterPlugin\Tests\PHP\Unit;
+namespace AmberChunn\GoGoGadget\Tests\PHP\Unit;
 
-use function KnowTheCode\StarterPlugin\Tests\PHP\load_composer_autoloader;
+use function AmberChunn\GoGoGadget\Tests\PHP\load_composer_autoloader;
 
 /**
  * Gets the unit test's root directory.
